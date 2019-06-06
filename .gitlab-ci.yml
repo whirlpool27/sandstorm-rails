@@ -3,7 +3,7 @@ stages:
 
 test:
   stage: test
-  image: ruby:2.5.1-alpine3.7
+  image: ruby:2.6.3
   variables:
     RAILS_ENV: test
   script:
