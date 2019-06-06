@@ -78,6 +78,9 @@ group :test do
   gem 'chromedriver-helper'
 
   gem 'pry-rails'
+end
+
+group :development, :test do
   gem 'factory_bot_rails'
   gem 'rspec-rails'
 end

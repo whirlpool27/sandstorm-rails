@@ -64,6 +64,8 @@ AllCops:
     - 'vendor/**/*'
     - '.git/**/*'
     - 'bin/*'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'
   # Default formatter will be used if no `-f/--format` option is given.
   DefaultFormatter: progress
   # Cop names are displayed in offense messages by default. Change behavior
@@ -2608,7 +2610,7 @@ Style/EmptyLiteral:
 Style/EmptyMethod:
   Description: 'Checks the formatting of empty method definitions.'
   StyleGuide: '#no-single-line-methods'
-  Enabled: true
+  Enabled: false
   VersionAdded: '0.46'
   EnforcedStyle: compact
   SupportedStyles:
