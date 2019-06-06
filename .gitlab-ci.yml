@@ -8,6 +8,7 @@ test:
   script:
   - apt-get update -qy
   - apt-get install -y nodejs
+  - gem install bundler
   - bundle install --path /cache
   - bundle exec rspec
   - bundle exec rubocop
