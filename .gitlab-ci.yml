@@ -1,0 +1,13 @@
+stages:
+-test
+
+test:
+  stage: test
+  variables:
+    RAILS_ENV: test
+  script:
+    - apt-get update -qy
+    - apt-get install -y nodejs
+    - bundle install --path /cache
+    - bundle exec rspec
+    - bundle exec rubocop
