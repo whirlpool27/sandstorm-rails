@@ -1,1 +1,2 @@
-web: puma -p 3999
+backend: puma -p 3999
+frontend: bin/webpack-dev-server
