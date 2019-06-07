@@ -1,4 +1,3 @@
-
 class ProductsController < ApplicationController
   append_view_path 'app/views'
   before_action :set_product, only: %i[show edit update destroy]
