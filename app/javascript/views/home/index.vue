@@ -1,21 +1,20 @@
 <template>
-  <div id="app">
-    <p>{{ message }}</p>
+  <div id="home-index-view">
+    <h1> Cheap Shells on Salestorm </h1>
   </div>
 </template>
 
 <script>
 export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
-    }
-  }
+  data: function() {
+    return ({
+    })
+  },
 }
 </script>
 
 <style scoped>
-p {
+h1 {
   font-size: 2em;
   text-align: center;
 }
